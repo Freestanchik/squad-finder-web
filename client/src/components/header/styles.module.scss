@@ -1,0 +1,41 @@
+.header{
+  font-family: "Roboto Light", serif;
+  padding: 5px;
+  background-color: #333;
+  color: white;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo, &__user_info{
+    display: flex;
+    align-items: center;
+  }
+  &__logo{
+    .logo{
+      height: 80px;
+    }
+
+    .app_name{
+      font-weight: bold;
+      font-size: 40px;
+      margin: 0 10px 0 10px;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  &__user_info{
+    .profile_icon{
+      font-size: 40px;
+    }
+
+    .user_name{
+      font-size: 30px;
+      margin: 0 5px 0 0;
+    }
+  }
+}
+
