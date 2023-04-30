@@ -1,6 +1,7 @@
 import Header from "./components/header/Header";
 import "./app.scss"
 import Footer from "./components/footer/Footer";
+
 function App() {
 
     return (

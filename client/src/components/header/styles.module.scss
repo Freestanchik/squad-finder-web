@@ -1,24 +1,26 @@
-.header{
+.header {
   font-family: "Roboto Light", serif;
   padding: 5px;
   background-color: #333;
   color: white;
 
-  .container{
+  .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  &__logo, &__user_info{
+
+  &__logo, &__user_info {
     display: flex;
     align-items: center;
   }
-  &__logo{
-    .logo{
+
+  &__logo {
+    .logo {
       height: 80px;
     }
 
-    .app_name{
+    .app_name {
       font-weight: bold;
       font-size: 40px;
       margin: 0 10px 0 10px;
@@ -27,12 +29,13 @@
       }
     }
   }
-  &__user_info{
-    .profile_icon{
+
+  &__user_info {
+    .profile_icon {
       font-size: 40px;
     }
 
-    .user_name{
+    .user_name {
       font-size: 30px;
       margin: 0 5px 0 0;
     }
